@@ -6,23 +6,20 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     min-height: 100vh;
     margin: 0;
+    margin: auto;
     font-family: "Inria Serif";
 }
 
-main{
-    margin: auto;
-    margin: 0;
-}
 
 /*logo*/
 header img{
     display: flex;
     margin: auto;
-    padding: 20px;
-    padding-bottom: 60px;
+    margin-bottom: 60px;
+    padding-top: 80px;
 }
 
 ul, li, a{
@@ -59,6 +56,32 @@ nav a{
     line-height: normal;
     text-align: center;
 }
+.blom{
+  max-width: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  padding-top: 1rem;
+}
+
+.listi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: auto;
+    height: 65px;
+    flex-shrink: 0;
+    margin: auto;
+    padding: 20px;
+}
+.listi{ 
+  font-family: "Inria Serif";
+  font-size: 24px;
+  color: #646C3E;
+
+}
 
 footer{
     background-color: #646C3E;
@@ -67,7 +90,6 @@ footer{
     padding: 10px;
     margin-top: 20px;
     width: 100%;
-    padding-bottom: 20px;
 }
 
 h4{
@@ -75,51 +97,53 @@ h4{
     line-height: 0.7;
 } 
 
-.footer-socials{
+footer img{
     height: 24px;
     padding: 5px;
-    gap: 15px;
-    display: flex;
-    flex-direction: row;
 }
-
 
 /*Everthing above is header and footer related*/
-
-/*Header Garðyrkjufélög*/
-article img{
-    display: flex;
+main{
     margin: auto;
-    margin-top: 120px;
-    margin-bottom: 80px;
-    padding: 20px;
+    margin: 0;
 }
-
-section{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 600px;
-    margin-right: 600px;
-    gap: 90px;
-    margin-bottom: 150px; /* Adjust as needed */
+figure img {
+  max-width: 200px;
+  height: auto;
 }
-
-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
+figcaption {
+  margin-top: 0.7rem;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #444;
+  font-family: "Inria Serif";
 }
+article{
 
+  display: flex;
+  align-items: center;
+ margin: auto;
+  max-width: 900px;
+}
 p{
-    text-align: justify;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    word-spacing: 0.0em;    /* Adjust as needed, try 0 or a small value */
-    hyphens: auto;           /* Allows automatic hyphenation for better justification */
+  font-family: "Inria Serif";
+  font-size: 20px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+h3{
+  font-family: "Inria Serif";
+  font-size: 28px;
+  color: #646C3E;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
-.button-gardyrkja{
+.blom1{
     background-color: #CDA062;
 }
+
+
+
+

@@ -65,9 +65,8 @@ footer{
     color: #FDFAE0;
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 80px;
     width: 100%;
-    padding-bottom: 20px;
 }
 
 h4{
@@ -75,51 +74,92 @@ h4{
     line-height: 0.7;
 } 
 
-.footer-socials{
+footer img{
     height: 24px;
     padding: 5px;
-    gap: 15px;
-    display: flex;
-    flex-direction: row;
 }
-
 
 /*Everthing above is header and footer related*/
-
-/*Header Garðyrkjufélög*/
-article img{
+.contact-form{
     display: flex;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    padding-top: 40px;
+    padding-bottom: 80px;
     margin-top: 120px;
-    margin-bottom: 80px;
-    padding: 20px;
-}
 
-section{
+}
+  .contact-box {
+    background-color: #8a9658;   
+    color: #FDFAE0;             
+    border-radius: 23px;
+    padding: 3rem 2rem;
+    max-width: 800px;
+    width: 90%;
+    box-sizing: border-box;
+    text-align: center;
+
+  }
+
+  .contact-box h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Inria Serif';
+  }
+
+  .contact-box p {
+    margin-bottom: 2rem;
+  }
+
+  form {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 600px;
-    margin-right: 600px;
-    gap: 90px;
-    margin-bottom: 150px; /* Adjust as needed */
-}
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+    align-items: start;
+  }
 
-div{
+  .form-left {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-}
+    gap: 1.2rem;
+  }
 
-p{
-    text-align: justify;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    word-spacing: 0.0em;    /* Adjust as needed, try 0 or a small value */
-    hyphens: auto;           /* Allows automatic hyphenation for better justification */
-}
+  input, textarea {
+    padding: 0.8rem 1rem;
+    border: 2px solid #f8f5e7;
+    border-radius: 15px;
+    background: transparent;
+    color: #f8f5e7;
+    font-size: 1rem;
+  }
 
-.button-gardyrkja{
+  input::placeholder,
+  textarea::placeholder {
+    color: #f8f5e7;
+    opacity: 0.8;
+    font-family: 'Inria Serif';
+  }
+
+  textarea {
+    height: 84%;
+    resize: none;
+  }
+
+  .hafasamband a{
     background-color: #CDA062;
-}
+    color: #FDFAE0;
+  }
+
+  .hafasamband2{
+    width: 350px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  section img{
+    width: 330px;
+    height: auto;
+    margin-top: 30px;
+  }
