@@ -1,8 +1,5 @@
 body{
-    background-image: url(photos/paper-background.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(paper-background.png);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,6 +7,9 @@ body{
     min-height: 100vh;
     margin: 0;
     font-family: "Inria Serif";
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main{
@@ -67,6 +67,7 @@ footer{
     padding: 10px;
     margin-top: 20px;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 h4{
@@ -81,14 +82,47 @@ footer img{
 
 /*Everthing above is header and footer related*/
 
-/*Seasonal photo*/
-article {
+/*Heading Flóra Íslands*/
+section img{
     display: flex;
-    justify-content: center;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    padding: 20px;
+}
+
+section p{
+    display: flex;
     align-items: center;
 }
 
+p{
+    color: #000;
+    text-align: justify;
+    font-family: "Inria Serif";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 700px;
+    margin-right: 700px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.5;
+}
 
+.indented-line{
+    text-indent : 50px;
+    margin-top: 0px;
+}
+
+p:last-of-type {
+    margin-bottom: 150px; /* Adjust as needed */
+}
+
+.button-floraislands{
+    background-color: #CDA062;
+}
 
 
 
