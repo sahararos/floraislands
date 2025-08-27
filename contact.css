@@ -1,0 +1,165 @@
+body{
+    background-image: url(paper-background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Inria Serif";
+}
+
+main{
+    margin: auto;
+    margin: 0;
+}
+
+/*logo*/
+header img{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: auto;
+    height: 55px;
+    flex-shrink: 0;
+}
+
+/* navigation buttons */
+nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 186px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background-color: #646C3E;
+    color: #FDFAE0;
+    font-family: "Inria Serif";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+footer{
+    background-color: #646C3E;
+    color: #FDFAE0;
+    text-align: center;
+    padding: 10px;
+    margin-top: 80px;
+    width: 100%;
+}
+
+h4{
+    font-family: "Inria Serif";
+    line-height: 0.7;
+} 
+
+footer img{
+    height: 24px;
+    padding: 5px;
+}
+
+/*Everthing above is header and footer related*/
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-top: 120px;
+
+}
+  .contact-box {
+    background-color: #8a9658;   
+    color: #FDFAE0;             
+    border-radius: 23px;
+    padding: 3rem 2rem;
+    max-width: 800px;
+    width: 90%;
+    box-sizing: border-box;
+    text-align: center;
+
+  }
+
+  .contact-box h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Inria Serif';
+  }
+
+  .contact-box p {
+    margin-bottom: 2rem;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+    align-items: start;
+  }
+
+  .form-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  input, textarea {
+    padding: 0.8rem 1rem;
+    border: 2px solid #f8f5e7;
+    border-radius: 15px;
+    background: transparent;
+    color: #f8f5e7;
+    font-size: 1rem;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #f8f5e7;
+    opacity: 0.8;
+    font-family: 'Inria Serif';
+  }
+
+  textarea {
+    height: 84%;
+    resize: none;
+  }
+
+  .hafasamband a{
+    background-color: #CDA062;
+    color: #FDFAE0;
+  }
+
+  .hafasamband2{
+    width: 350px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  section img{
+    width: 330px;
+    height: auto;
+    margin-top: 30px;
+  }

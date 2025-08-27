@@ -1,0 +1,145 @@
+body{
+    background-image: url(paper-background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    margin: auto;
+    font-family: "Inria Serif";
+}
+
+
+/*logo*/
+header img{
+    display: flex;
+    margin: auto;
+    margin-bottom: 60px;
+    padding-top: 80px;
+}
+
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: auto;
+    height: 55px;
+    flex-shrink: 0;
+}
+
+/* navigation buttons */
+nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 186px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background-color: #646C3E;
+    color: #FDFAE0;
+    font-family: "Inria Serif";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.blom{
+  max-width: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  padding-top: 1rem;
+}
+
+.listi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: auto;
+    height: 65px;
+    flex-shrink: 0;
+    margin: auto;
+    padding: 20px;
+}
+.listi{ 
+  font-family: "Inria Serif";
+  font-size: 24px;
+  color: #646C3E;
+
+}
+
+footer{
+    background-color: #646C3E;
+    color: #FDFAE0;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+h4{
+    font-family: "Inria Serif";
+    line-height: 0.7;
+} 
+
+footer img{
+    height: 24px;
+    padding: 5px;
+}
+
+/*Everthing above is header and footer related*/
+main{
+    margin: auto;
+    margin: 0;
+}
+figure img {
+  max-width: 200px;
+  height: auto;
+}
+figcaption {
+  margin-top: 0.7rem;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #444;
+  font-family: "Inria Serif";
+}
+article{
+
+  display: flex;
+  align-items: center;
+ margin: auto;
+  max-width: 900px;
+}
+p{
+  font-family: "Inria Serif";
+  font-size: 20px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+h3{
+  font-family: "Inria Serif";
+  font-size: 28px;
+  color: #646C3E;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
