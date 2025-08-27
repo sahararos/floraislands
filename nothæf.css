@@ -1,0 +1,164 @@
+body{
+    background-image: url(paper-background.png);
+    display: flex;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    min-height: 100vh;
+    margin: 0; 
+    font-family: "Inria Serif";
+}
+
+main{
+    margin: auto;
+    margin: 0;
+}
+
+/*logo*/
+header img{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: auto;
+    height: 55px;
+    flex-shrink: 0;
+
+}
+#nothæf{
+    background-color: #CDA062;
+}
+/* navigation buttons */
+nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 186px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background-color: #646C3E;
+    color: #FDFAE0;
+    font-family: "Inria Serif";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+footer{
+    background-color: #646C3E;
+    color: #FDFAE0;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+h4{
+    font-family: "Inria Serif";
+    line-height: 0.7;
+} 
+
+footer img{
+    height: 24px;
+    padding: 5px;
+}
+
+/*Everthing above is header and footer related*/
+
+/* Main banner*/
+article {
+    margin-top: 120px; 
+    margin-bottom: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Content Grid */
+.two-buttons{ 
+    margin: 100px;
+    border-radius: 60px;
+    background: #8C9759;
+    width: 303px;
+    height: 77px;
+    flex-shrink: 0;
+    color: #FFFF;
+    text-align: center;
+    font-family: "Inria Serif";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content:center; 
+    justify-self: center;
+}
+.two-columns{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    gap: 120px; 
+    justify-content: center;
+    margin: 0 auto; 
+    max-width: 1200px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* space between columns */
+}
+.block{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.block img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; 
+  display: flex; 
+  justify-items:  center; 
+}
+.column img{
+    width: 250px; 
+    height:  350px; 
+    display: flex;
+    justify-items: center;
+    justify-self: center; 
+}
+.column h2{
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+ justify-self: center; 
+}
+.column p{
+ display: flex;
+ justify-self: center; 
+text-align: center;
+font-family: "Inria Serif";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+}
