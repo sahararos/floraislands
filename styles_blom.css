@@ -22,13 +22,13 @@ header img{
     padding: 20px;
 }
 
-ul, li, a{
+.navigation ul, li, a{
     text-decoration: none;
     list-style: none;
     color: black;
 }
 
-ul{
+.navigation ul{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@ ul{
 }
 
 /* navigation buttons */
-nav a{
+.navigation a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,7 +65,7 @@ nav a{
   padding-top: 1rem;
 }
 
-.listi{
+.listi {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +76,7 @@ nav a{
     margin: auto;
     padding: 20px;
 }
-.listi{ 
+.listi { 
   font-family: "Inria Serif";
   font-size: 24px;
   color: #646C3E;
@@ -104,6 +104,12 @@ footer img{
     padding: 5px;
 }
 
+.navigation a:hover {
+    background-color: #8A9652; 
+    color: #FDFAE0;          
+    transition: 0.2s;
+}
+
 /*Everthing above is header and footer related*/
 main{
     margin: auto;
@@ -122,7 +128,6 @@ figcaption {
   font-family: "Inria Serif";
 }
 article{
-
   display: flex;
   align-items: center;
  margin: auto;
@@ -135,7 +140,7 @@ p{
   color: #333;
   margin-bottom: 1.5rem;
 }
-h3{
+div h3{
   font-family: "Inria Serif";
   font-size: 28px;
   color: #646C3E;
@@ -143,8 +148,17 @@ h3{
   margin-bottom: 1rem;
 }
 
-.blom1{
+.navigation .blom1{
     background-color: #CDA062;
+}
+footer a {
+    color: #FDFAE0;
+    text-decoration: none;
+}
+
+footer a:hover, footer a:visited, footer a:active {
+    color: #FDFAE0;
+    text-decoration: underline; /* Optional: add underline on hover */
 }
 
 
