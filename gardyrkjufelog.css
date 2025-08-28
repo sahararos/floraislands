@@ -15,6 +15,7 @@ body{
 main{
     margin: auto;
     margin: 0;
+    width: 100%; 
 }
 
 /*logo*/

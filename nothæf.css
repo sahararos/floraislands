@@ -15,6 +15,7 @@ body{
 main{
     margin: auto;
     margin: 0;
+    width: 100%; 
 }
 
 /*logo*/
@@ -121,6 +122,7 @@ article {
     justify-content: center;
     margin: 0 auto; 
     max-width: 1200px;
+    padding-bottom: 40px;
 }
 .column {
   display: flex;
@@ -138,6 +140,7 @@ article {
   border-radius: 8px; 
   display: flex; 
   justify-items:  center; 
+
 }
 .column img{
     width: 250px; 
@@ -153,12 +156,18 @@ font-weight: 400;
 display: flex;
  justify-self: center; 
 }
+p{
+    text-align:justify; 
+}
 .column p{
- display: flex;
- justify-self: center; 
-text-align: center;
+text-align: justify;
+display: flex;
+justify-self: center; 
 font-family: "Inria Serif";
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
+}
+.italic{
+    font-style: italic; 
 }

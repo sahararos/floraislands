@@ -15,6 +15,7 @@ body{
 main{
     margin: auto;
     margin: 0;
+    width: 100%; 
 }
 
 /*logo*/
@@ -24,7 +25,6 @@ header img{
     padding: 20px;
     padding-bottom: 60px;
 }
-
 ul, li, a{
     text-decoration: none;
     list-style: none;
@@ -58,6 +58,7 @@ nav a{
     font-weight: 400;
     line-height: normal;
     text-align: center;
+    margin-bottom: 96px;
 }
 
 footer{
@@ -82,15 +83,46 @@ footer img{
 /*Everthing above is header and footer related*/
 
 /*Seasonal photo*/
-article {
-    display: flex;
+article video {
+    display:flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 98px; 
+    width: 1315px; 
+    margin: auto; 
+    border-radius: 23px; 
 }
 
 .heim{
     background-color: #CDA062;
 }
+
+.container{
+    display: grid; 
+    place-items: center;    
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    display: grid;
+    grid-template-columns: repeat (2, minmax(0 , 1fr));
+    gap: 0px; 
+}
+.row1, .row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row1 img {
+    width: 662.2px; 
+    height: 369px; 
+}
+
+
+
+
 
 
 

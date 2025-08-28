@@ -14,7 +14,7 @@ body{
 
 main{
     margin: auto;
-    margin: 0;
+    width: 100%; 
 }
 
 /*logo*/
@@ -64,8 +64,9 @@ footer{
     background-color: #646C3E;
     color: #FDFAE0;
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
     margin-top: 80px;
+    margin-bottom: 0;
     width: 100%;
 }
 

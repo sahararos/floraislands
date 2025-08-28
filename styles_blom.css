@@ -88,6 +88,8 @@ footer{
     color: #FDFAE0;
     text-align: center;
     padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
     margin-top: 20px;
     width: 100%;
 }
@@ -106,6 +108,7 @@ footer img{
 main{
     margin: auto;
     margin: 0;
+    width: 100%; 
 }
 figure img {
   max-width: 200px;
