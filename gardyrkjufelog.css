@@ -1,0 +1,126 @@
+body{
+    background-image: url(photos/paper-background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Inria Serif";
+}
+
+main{
+    margin: auto;
+    margin: 0;
+    width: 100%; 
+}
+
+/*logo*/
+header img{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: auto;
+    height: 55px;
+    flex-shrink: 0;
+}
+
+/* navigation buttons */
+nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 186px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background-color: #646C3E;
+    color: #FDFAE0;
+    font-family: "Inria Serif";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+footer{
+    background-color: #646C3E;
+    color: #FDFAE0;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+h4{
+    font-family: "Inria Serif";
+    line-height: 0.7;
+} 
+
+.footer-socials{
+    height: 24px;
+    padding: 5px;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*Everthing above is header and footer related*/
+
+/*Header Garðyrkjufélög*/
+article img{
+    display: flex;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    padding: 20px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 600px;
+    margin-right: 600px;
+    gap: 90px;
+    margin-bottom: 150px; /* Adjust as needed */
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+p{
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    word-spacing: 0.0em;    /* Adjust as needed, try 0 or a small value */
+    hyphens: auto;           /* Allows automatic hyphenation for better justification */
+}
+
+.button-gardyrkja{
+    background-color: #CDA062;
+}

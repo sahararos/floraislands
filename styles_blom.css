@@ -1,5 +1,5 @@
 body{
-    background-image: url(paper-background.png);
+    background-image: url(photos/paper-background.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,7 @@ header img{
     display: flex;
     margin: auto;
     margin-bottom: 60px;
-    padding-top: 80px;
+    padding: 20px;
 }
 
 ul, li, a{
@@ -88,7 +88,9 @@ footer{
     color: #FDFAE0;
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 80px;
     width: 100%;
 }
 
@@ -106,6 +108,7 @@ footer img{
 main{
     margin: auto;
     margin: 0;
+    width: 100%; 
 }
 figure img {
   max-width: 200px;
@@ -138,6 +141,10 @@ h3{
   color: #646C3E;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+.blom1{
+    background-color: #CDA062;
 }
 
 
