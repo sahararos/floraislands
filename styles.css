@@ -61,7 +61,9 @@ nav a{
     margin-bottom: 96px;
     margin-top: 60px;
 }
-
+nav ul{
+    margin-right:  36px; 
+}
 footer{
     background-color: #646C3E;
     color: #FDFAE0;
